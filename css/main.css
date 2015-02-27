@@ -1,9 +1,49 @@
 html{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-font-family: 'Merriweather', serif;
+h1 {
+  font-family: 'Merriweather', serif;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+
+.inset-left {
+  float: left;
+  width: 40%;
+  margin-right: 15px;
+}
+
+.inset-right {
+  float: right;
+  width: 40%;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.inset-right-2 {
+  float: right;
+  width: 40%;
+  margin-left: 15px;
+  clear: both;
+}
+
+.orange-box {
+  background-color: #dc8252;
+}
