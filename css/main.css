@@ -1,5 +1,8 @@
 html{
   box-sizing: border-box;
+}
+
+body {
   margin: 0;
   padding: 0;
 }
@@ -14,8 +17,11 @@ h1 {
 
 h2 {
   font-family: 'Merriweather', serif;
-  color: white;
   text-align: center;
+}
+
+.white {
+  color: white;
 }
 
 p {
@@ -46,4 +52,92 @@ p {
 
 .orange-box {
   background-color: #dc8252;
+  overflow: hidden;
+}
+
+.corn {
+  width: 100%;
+}
+
+.rice-oats {
+  float: left;
+  width: 50%
+}
+
+img {
+  width: 100%;
+}
+
+.word-corn {
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.word-rice {
+  color: white;
+  margin: 0;
+  clear: both;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.word-oats {
+  color: white;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.block-list {
+  float: left;
+  width: 20%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.block-list-2 {
+  float: left;
+  width: 20%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  clear: left;
+}
+
+footer {
+  background-color: #d05c2e;
+  padding: 10px;
+}
+
+.padding {
+  padding: 0.75rem;
+}
+
+.list {
+  font-size: 13px;
+  line-height: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.white-2 {
+  color: white;
+  text-align: center;
+}
+
+.header {
+  background-color: #d05c2e;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.leaf {
+  width: 15%;
+  float: left;
+}
+
+.leaf-2 {
+  float: right;
+  width: 15%;
 }
