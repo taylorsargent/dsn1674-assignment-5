@@ -141,3 +141,40 @@ footer {
   float: right;
   width: 15%;
 }
+
+.title {
+  color: white;
+  padding: 0;
+  margin: 5px;
+}
+
+nav {
+  background-color: #d05c2e;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  float: left;
+  width: 33.3333%;
+}
+
+nav a {
+  display: block;
+  padding: 0.5em 0.75em;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #a93f35;
+}
+
+nav a:hover {
+  background-color: #a93f35;
+}
